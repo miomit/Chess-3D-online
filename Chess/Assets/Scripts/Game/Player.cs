@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class Pleer : MonoBehaviour, IPunObservable
+public class Player : MonoBehaviour, IPunObservable
 {
     //для отправки данных
     PhotonView View;
